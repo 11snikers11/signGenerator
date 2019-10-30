@@ -1,0 +1,12 @@
+html
+head
+    style
+        include signTemplateStyle.css
+body
+    div(class="border-container")
+        div(class="inside-text")
+            div(style="font-weight: bold; color: rgb(70, 116, 145)") #{action}
+            div ЭЛЕКТРОННАЯ ПОДПИСЬ
+            div Подписал: #{whoSigned}
+            div Дата: #{signDate}
+            div(style="font-weight: bold; font-size: 13px") #{md5}

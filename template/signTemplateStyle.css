@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+}
+.border-container {
+    width: 250px;
+    height: 100px;
+    border: rgb(70, 116, 145) 2px solid;
+    border-radius: 20px;
+}
+
+.inside-text {
+    text-align: center;
+    padding-top: 13px;
+    font-size: 14px;
+}

@@ -1,0 +1,27 @@
+{
+  "name": "digitalsigngenerator",
+  "version": "1.0.0",
+  "description": "This project was made for my friend Alesha",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "pug": "^2.0.4",
+    "puppeteer": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/11snikers11/signGenerator.git"
+  },
+  "author": "DK",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/11snikers11/signGenerator/issues"
+  },
+  "homepage": "https://github.com/11snikers11/signGenerator#readme"
+}
